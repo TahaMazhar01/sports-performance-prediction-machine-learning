@@ -1,0 +1,33 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+env.bak/
+*.env
+
+# Ignore Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Ignore system files (Windows/macOS/Linux)
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore VS Code config
+.vscode/
+
+# Ignore unnecessary data files (OPTIONAL)
+# Uncomment if you don't want to commit raw data
+# *.csv
+# *.xlsx
+
+# Ignore model files (OPTIONAL)
+# Uncomment if you rebuild models frequently and don't want to track them
+# *.joblib
